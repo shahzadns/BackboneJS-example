@@ -1,0 +1,64 @@
+<div class="col-xs-12 col-sm-12">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <strong>
+                        <a href="javascript:;">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            All Saved Question
+                        </a>
+                    </strong>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <strong>Task1 Completion</strong>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <button type="submit" class="btn btn-xs btn-default">Add to Excel</button>
+                    <button type="submit" id="edit" class="btn btn-xs btn-default">Edit</button>
+                    <button type="submit" class="btn btn-xs btn-default">Unsave</button>
+                </div>
+            </div>
+        </div>
+        <div class="panel-body">
+            <form class="form-horizontal" role="form">
+                <div class="row form-group">
+                    <label class="col-xs-4 col-sm-2 pd-tp-0 control-label">Name</label>
+                    <div class="col-xs-8 col-sm-10">
+                        <span>{{name}}</span>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label class="col-xs-4 col-sm-2 pd-tp-0 control-label">prompt</label>
+                    <div class="col-xs-8 col-sm-10">
+                        <span>{{prompt}}</span>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label class="col-xs-4 col-sm-2 pd-tp-0 control-label">Source</label>
+                    <div class="col-xs-8 col-sm-10">
+                        <span>{{source}}</span>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label class="col-xs-4 col-sm-2 pd-tp-0 control-label">Type</label>
+                    <div class="col-xs-8 col-sm-10">
+                        <span>{{type_id}}</span>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label class="col-xs-4 col-sm-2 pd-tp-0 control-label">Number of Responses</label>
+                    <div class="col-xs-8 col-sm-10">
+                        <span>{{num_responses}}</span>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label class="col-xs-4 col-sm-2 pd-tp-0 control-label">Sample size</label>
+                    <div class="col-xs-8 col-sm-10">
+                        <span>{{sample_size_method}}</span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

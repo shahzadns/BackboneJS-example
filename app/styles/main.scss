@@ -1,0 +1,15 @@
+$icon-font-path: "../bower_components/sass-bootstrap/fonts/";
+@import '../bower_components/sass-bootstrap/lib/bootstrap';
+
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.form-horizontal {
+
+  .pd-tp-0{
+    padding-top: 0;
+  }
+}
