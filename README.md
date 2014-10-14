@@ -12,6 +12,7 @@ Frameworks and libraries:<br>
 <strong>Underscore.js</strong> <em>(template Engine)</em><br>
 <strong>Bootstrap</strong><em>(framework to create Responsive Designs for Web)</em>
 <br>
+<br>
 And Tools:<br>
 <strong>NPM</strong> <em>(provided by Node.js to get modules for the project)</em><br>
 <strong>Yeoman</strong> <em>(The web's scaffolding tool for modern webapps)</em><br>
